@@ -14,6 +14,7 @@
 		50FBAC8921F710EB0002AFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FBAC8721F710EB0002AFD8 /* LaunchScreen.storyboard */; };
 		50FBAC9421F710EB0002AFD8 /* regjsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBAC9321F710EB0002AFD8 /* regjsonTests.swift */; };
 		50FBAC9F21F710EB0002AFD8 /* regjsonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBAC9E21F710EB0002AFD8 /* regjsonUITests.swift */; };
+		50FBACB621F7124D0002AFD8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 50FBACB521F7124D0002AFD8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		50FBAC9A21F710EB0002AFD8 /* regjsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = regjsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FBAC9E21F710EB0002AFD8 /* regjsonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regjsonUITests.swift; sourceTree = "<group>"; };
 		50FBACA021F710EB0002AFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FBACB521F7124D0002AFD8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,10 @@
 		50FBAC7D21F710EA0002AFD8 /* regjson */ = {
 			isa = PBXGroup;
 			children = (
-				50FBAC7E21F710EA0002AFD8 /* AppDelegate.swift */,
-				50FBAC8021F710EA0002AFD8 /* ViewController.swift */,
-				50FBAC8221F710EA0002AFD8 /* Main.storyboard */,
-				50FBAC8521F710EB0002AFD8 /* Assets.xcassets */,
-				50FBAC8721F710EB0002AFD8 /* LaunchScreen.storyboard */,
-				50FBAC8A21F710EB0002AFD8 /* Info.plist */,
+				50FBACB521F7124D0002AFD8 /* .gitignore */,
+				50FBACAE21F711CC0002AFD8 /* Applications */,
+				50FBACAD21F711C20002AFD8 /* Comments */,
+				50FBACAC21F711B40002AFD8 /* Supporting file */,
 			);
 			path = regjson;
 			sourceTree = "<group>";
@@ -123,6 +123,81 @@
 				50FBACA021F710EB0002AFD8 /* Info.plist */,
 			);
 			path = regjsonUITests;
+			sourceTree = "<group>";
+		};
+		50FBACAC21F711B40002AFD8 /* Supporting file */ = {
+			isa = PBXGroup;
+			children = (
+				50FBAC8A21F710EB0002AFD8 /* Info.plist */,
+				50FBAC8521F710EB0002AFD8 /* Assets.xcassets */,
+			);
+			path = "Supporting file";
+			sourceTree = "<group>";
+		};
+		50FBACAD21F711C20002AFD8 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				50FBACB121F711E30002AFD8 /* Models */,
+				50FBACB021F711DF0002AFD8 /* View */,
+				50FBACAF21F711D70002AFD8 /* Controllers */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		50FBACAE21F711CC0002AFD8 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				50FBACB421F711F60002AFD8 /* Models */,
+				50FBACB321F711F10002AFD8 /* View */,
+				50FBACB221F711EB0002AFD8 /* Controllers */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		50FBACAF21F711D70002AFD8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FBAC8021F710EA0002AFD8 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50FBACB021F711DF0002AFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50FBAC8221F710EA0002AFD8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50FBACB121F711E30002AFD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50FBACB221F711EB0002AFD8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50FBACB321F711F10002AFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50FBAC8721F710EB0002AFD8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50FBACB421F711F60002AFD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50FBAC7E21F710EA0002AFD8 /* AppDelegate.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FBACB621F7124D0002AFD8 /* .gitignore in Resources */,
 				50FBAC8921F710EB0002AFD8 /* LaunchScreen.storyboard in Resources */,
 				50FBAC8621F710EB0002AFD8 /* Assets.xcassets in Resources */,
 				50FBAC8421F710EA0002AFD8 /* Main.storyboard in Resources */,
@@ -434,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLFYR2THT5;
-				INFOPLIST_FILE = regjson/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/regjson/Supporting file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLFYR2THT5;
-				INFOPLIST_FILE = regjson/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/regjson/Supporting file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
