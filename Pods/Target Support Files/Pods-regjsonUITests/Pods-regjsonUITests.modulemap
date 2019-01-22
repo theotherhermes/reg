@@ -1,0 +1,6 @@
+framework module Pods_regjsonUITests {
+  umbrella header "Pods-regjsonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
